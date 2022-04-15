@@ -12,7 +12,9 @@ router.get("/redirect/:code", async (req, res) => {
       res.send("Invalid code!");
     }
   } else {
+
     res.send("Invalid code!");
+    
   }
 });
 
